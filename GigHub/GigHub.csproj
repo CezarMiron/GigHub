@@ -194,6 +194,10 @@
     <Compile Include="Migrations\201909061311051_AddForeinKyPropToGig.Designer.cs">
       <DependentUpon>201909061311051_AddForeinKyPropToGig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909101808116_AddNameToAppUser.cs" />
+    <Compile Include="Migrations\201909101808116_AddNameToAppUser.Designer.cs">
+      <DependentUpon>201909101808116_AddNameToAppUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -205,6 +209,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\GigFormViewModel.cs" />
+    <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="ViewModels\ValidTime.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -296,6 +301,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909061311051_AddForeinKyPropToGig.resx">
       <DependentUpon>201909061311051_AddForeinKyPropToGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909101808116_AddNameToAppUser.resx">
+      <DependentUpon>201909101808116_AddNameToAppUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
