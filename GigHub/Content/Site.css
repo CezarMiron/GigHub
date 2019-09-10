@@ -23,6 +23,11 @@ textarea {
     max-width: 280px;
 }
 
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
 /* Bootsrap Overrides */
 
 .navbar-inverse {
@@ -93,4 +98,6 @@ h6,
     -ms-border-radius: 9px;
     border-radius: 9px;
 }
+
+
 
